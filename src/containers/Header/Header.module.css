@@ -1,0 +1,17 @@
+
+.header {
+    display: flex;
+    background-color: rgb(245, 212, 245);
+    width: 100vw;
+    height: 2rem;
+    align-items: center;
+    padding: 1ch;
+    gap: 1ch;
+    border-bottom: 0.3ch solid crimson;
+
+    span {
+        font-size: 1.6em;
+        color: crimson;
+        user-select: none;
+    }
+}

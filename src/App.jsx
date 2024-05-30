@@ -1,12 +1,14 @@
-import './App.css'
+import './App.css';
+import Header from './containers/Header/Header';
 
 function App() {
 
   return (
     <>
-      <h1>Demo 05 - Cycle de vie</h1>
+      <Header />
+      <h1>Cycle de vie</h1>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
