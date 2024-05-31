@@ -23,7 +23,7 @@ const Clock = () => {
     // Render l'horloge
     return (
         <>
-        <p> {hours} : {minutes} : {seconds}</p>
+        <p>Il est actuellement {hours} : {minutes} : {seconds}</p>
         </>
     )
 }

@@ -12,7 +12,7 @@ const Today = () => {
     // Render de la date (Today)
     return (
         <>
-        <p>La date d'aujourd'hui nahdinamok : {mySuperFormatedDate}</p>
+        <p>La date du jour est le {mySuperFormatedDate}</p>
         </>
     )
 }
